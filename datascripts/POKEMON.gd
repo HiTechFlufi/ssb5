@@ -10,11 +10,13 @@ extends Sprite2D
 # Example:
 # var pokemon = Pokemon.new()
 # pokemon.side = 1
+#
 # pokemon.is_active = false
 # add_child(pokemon)
 
-# Callable values and variables for pokemon:
-# pokemon
+# ALL CALLABLE CHILDREN OF POKEMON CLASS:
+# details, basestats, name, texture, side, is_active
+#
 
 func _init(char_name: String):
 	if char_name not in ROSTER.ROSTER:

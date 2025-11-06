@@ -35,4 +35,4 @@ func set_active(side, pkmn):
 func _init():
 	init_battle(true, true)
 	set_active(1, "Aeri")
-	print(side1.active.basestats[0])
+	print(side1.active.name)
